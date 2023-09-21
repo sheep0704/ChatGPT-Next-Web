@@ -347,13 +347,7 @@ export function PreviewActions(props: {
             onClick={props.copy}
           ></IconButton>
         )}
-        <IconButton
-          text={Locale.Export.Download}
-          bordered
-          shadow
-          icon={<DownloadIcon />}
-          onClick={props.download}
-        ></IconButton>
+      
         <IconButton
           text={Locale.Export.Share}
           bordered
